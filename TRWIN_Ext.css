@@ -80,7 +80,7 @@
 
   #TopPanel #SearchBar{
     animation-name: searchbarAnim;
-    animation-duration: 5s;
+    animation-duration: 2s;
   }
 
   @keyframes searchbarAnim {
