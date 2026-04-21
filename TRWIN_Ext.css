@@ -1,0 +1,87 @@
+  body{
+    
+    background-color:lightblue;
+
+    background-image: url(TitleCardBanner.png) ;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+    background-attachment: fixed;
+    
+  }
+  
+  .CharacterBlock{
+      border : 2px solid black;
+      
+      padding : 10px;
+      border-radius: 12px;
+      margin: 50px auto;
+      
+      justify-items: center; 
+      max-width: 750px;
+      
+      
+  }
+
+  #WebContentBlock {
+    border : 3px solid black ;
+    
+    padding : 25px ;
+    background-color: lightgoldenrodyellow;
+    margin: 10%;
+    min-width: 450px;
+
+    
+    
+  }
+
+  
+  h1{
+    font-family: Arial,Arial, sans-serif;
+  }
+  h2{
+    font-family:Arial,sans-serif
+  }
+  
+  
+  #TopPanel{
+    width:100%;
+    height:75px;
+    background-color: #7ba0ab;
+    position:sticky;
+    top: 2px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-content: center;
+    text-align: left;
+
+    animation-name: transition;
+    animation-duration: 5s;
+  }
+
+  @keyframes transition {
+    from {
+      width: 25%;
+      border-bottom-right-radius: 25px;
+ 
+    
+    }
+
+
+    to {
+      width: 100%;
+      border-bottom-right-radius: 0px;
+
+      
+    }
+      
+  }
+
+  #TopPanel #SearchBar{
+    animation-name: transition;
+    animation-duration: 5s;
+  }
+
+  </style>
+

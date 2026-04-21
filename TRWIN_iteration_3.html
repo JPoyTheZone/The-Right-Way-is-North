@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet"
+    href ="TRWIN_Ext.css"
+  >
+  
+  
+</head>
+<body style="text-align:center;margin:0px;">
+
+  <div ID="TopPanel">
+    
+    <input ID="SearchBar" type="search" placeholder="search. . ." style="width:40%; margin:10px;border-radius:6px;border:none">
+  </div>
+  <br>
+  
+  <h2 style="margin-top: 80%;  padding: 20px;">The Right way is North is an action platformer set in a fantasy medieval world. Fight a myriad of Monsters, blast your way through the enemy stronghold or build your home and set out on an adventure to build renown.
+ Set out on a quest to follow the Northern Star.
+    
+  
+  </h2>
+  
+<div id="WebContentBlock">
+  <p ID="debug">Text Goes Here!</p>
+  <h1>Meet the Heroes!</h1>
+  
+  <div class="CharacterBlock" style="text-align : right">
+      <h1>Ranger</h1>
+  <img src="Leni_Ranger.gif">
+  <p>Whittle enemies from afar as Ranger. Pepper them with arrows before they get near or slow them down as they approach. </p>
+  </div>
+  
+  <div class="CharacterBlock" style="text-align : left">
+      <h1>Knight</h1>
+  <img src="Edwin_Knight.gif">
+  <p>Enter the fray with staggering blows as Knight. Land strikes that deal damage and scatter grouped enemies on a small area.</p>
+  </div>
+
+  <div class="CharacterBlock" style="text-align : right">
+      <h1>Prince</h1>
+  <img src="Micheal_Prince.gif">
+  <p>Zip into the battle as Prince. Enter as lightning and flash past enemy defenses, and eliminate key targets.</p>
+  </div>
+ 
+  <div class="CharacterBlock" style="text-align : left">
+      <h1>Paladin</h1>
+  <img src="Paladin.gif" src="Elina_Paladin.gif">
+  <p>Be graceful and versatile as Paladin. Enchant your weapon with stunning strikes or call upon heal or smiting light beams.</p>
+
+  </div>
+  
+  
+  
+</body>
+  
+  <script>
+  
+  
+  const SearchBar = document.getElementById("SearchBar");
+  const CharacterBlock = document.getElementsByClassName("CharacterBlock");
+ 
+  
+  const element = document.querySelector('.target');
+  targetText = SearchBar.value;
+  
+  document.getElementById("debug").innerText = SearchBar.value;
+  
+  </script>
+  
+</html>
