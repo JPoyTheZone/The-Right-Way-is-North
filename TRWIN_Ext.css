@@ -79,9 +79,19 @@
   }
 
   #TopPanel #SearchBar{
-    animation-name: transition;
+    animation-name: searchbarAnim;
     animation-duration: 5s;
   }
+
+  @keyframes searchbarAnim {
+    from {
+        width:25%;
+        }
+    to{
+        width :40% ;
+        }
+    }  
+
 
   </style>
 
